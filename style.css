@@ -1,0 +1,100 @@
+html, body {
+    height: 100%;
+    background-color: black
+}
+body {
+    background-color: rgb(15, 15, 15);
+    font-family: 'Bangers', cursive;
+    margin: auto;
+    padding: 0;
+    height: 100%;
+    background-image: url(https://res.cloudinary.com/codier/image/upload/v1650124011/vdnzeeias4beqm64fouz.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navBackground {
+    background-color: rgb(22, 22, 22);
+    justify-content: space-between;
+    max-width: auto;
+    max-height: auto;
+}
+
+.navImg {
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.flex {
+    max-width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Russo One', sans-serif;
+}
+
+.navItem {
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+body {
+    height: auto;
+    width: auto;
+}
+
+.main {
+    background-size: cover;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.container {
+    height: auto;
+    max-width: auto;
+    margin: auto;
+    color: white;
+    font-size: 60px;
+    align-items: stretch;
+}
+
+.bio {
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 #000000, 0 -2px 0 #000000, 1px 1px rgb(0, 0, 0), -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+}
+
+.info {
+    backdrop-filter: blur(30px);
+    font-family: 'Russo One', sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 24px;
+    width: 320px;
+    padding: 20px;
+    border: 1px solid transparent rgb(77, 75, 75);
+    border-radius: 8%;
+    margin: 0;
+    margin-left: 50px;
+}
+
+footer {
+    display: flex;
+    margin-top: 60px;
+    background-color: rgb(22, 22, 22);
+    height: 100px;
+    color: rgb(175, 175, 175);
+    font-family: 'Russo One', sans-serif;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 19px;
+
+}
